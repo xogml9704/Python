@@ -23,8 +23,8 @@ app.run(port=5000, debug=True)
 #     return '페이지 내용'
 # (/페이지 이름을 입력하면 밑에 함수를 응대해서 출력하라.)
 
-@app.route('/read/<id>/') <> id를 주면 <> 이후의 파라미터로 들어간다.
-def read(id):
-    print(id)
-    return 'Read ' + id
+# @app.route('/read/<id>/') <> id를 주면 <> 이후의 파라미터로 들어간다.
+# def read(id):
+#     print(id)
+#     return 'Read ' + id
 
